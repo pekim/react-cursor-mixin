@@ -1,0 +1,33 @@
+{
+  "name": "react-cursor-mixins",
+  "version": "1.0.0",
+  "description": "React mixins for components using cursors and immutable data structures.",
+  "main": "lib/mixins.js",
+
+  "dependencies": {
+    "immstruct": "^1.0.0",
+    "deep-equal": "^0.2.1"
+  },
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "mocha": "^2.0.1"
+  },
+
+  "scripts": {
+    "test": "mocha -R spec test/**-test.js",
+    "test-watch": "mocha -G -w -R min test/**-test.js"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pekim/tonbridge.git"
+  },
+  "keywords": [
+    "react",
+    "mixin",
+    "cursor",
+    "immutable"
+  ],
+  "author": "@pekim",
+  "license": "mit"
+}
