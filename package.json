@@ -20,7 +20,7 @@
 
   "repository": {
     "type": "git",
-    "url": "git://github.com/pekim/tonbridge.git"
+    "url": "git://github.com/pekim/react-cursor-mixins.git"
   },
   "keywords": [
     "react",
