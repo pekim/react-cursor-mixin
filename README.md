@@ -26,3 +26,6 @@ So they should only be used for data that will never change.
 A component's state is checked for change by the mixin.
 
 The check is for deep equality, and so will not be as efficient as cursor checks.
+
+## License
+[MIT](./LICENSE)
