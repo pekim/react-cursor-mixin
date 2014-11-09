@@ -1,10 +1,10 @@
 var React = require('react');
-var shouldComponentUpdate = require('../../');
+var mixin = require('../../');
 
-shouldComponentUpdate.enableDebug();
+mixin.shouldComponentUpdate.enableDebug();
 
 var Component = React.createClass({
-  mixins: [{shouldComponentUpdate: shouldComponentUpdate}],
+  mixins: [mixin],
 
   increment: function() {
     this.props.cursor.update('value', function(value) {

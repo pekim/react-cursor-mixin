@@ -1,7 +1,7 @@
 var chai = require('chai');
 chai.should();
 
-var shouldComponentUpdate = require('../');
+var shouldComponentUpdate = require('../').shouldComponentUpdate;
 var immstruct = require('immstruct');
 
 // shouldComponentUpdate.enableDebug();
