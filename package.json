@@ -1,7 +1,7 @@
 {
-  "name": "react-cursor-mixins",
+  "name": "react-cursor-mixin",
   "version": "1.0.0",
-  "description": "React mixins for components using cursors and immutable data structures.",
+  "description": "React mixin for components using cursors and immutable data structures.",
   "main": "lib/should-component-update.js",
 
   "dependencies": {
@@ -20,7 +20,7 @@
 
   "repository": {
     "type": "git",
-    "url": "git://github.com/pekim/react-cursor-mixins.git"
+    "url": "git://github.com/pekim/react-cursor-mixin.git"
   },
   "keywords": [
     "react",
