@@ -1,0 +1,14 @@
+body {
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+button {
+  font-size: 18px;
+}
+
+.component {
+  margin: 10px;
+  padding: 10px;
+  border: solid 1px gray;
+}

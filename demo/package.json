@@ -1,0 +1,16 @@
+{
+  "name": "react-cursor-mixins-demo",
+
+  "dependencies": {
+    "browserify": "^6.0.0",
+    "gulp": "^3.8.7",
+    "gulp-notify": "^2.0.1",
+    "gulp-util": "^3.0.1",
+    "immstruct": "^1.0.0",
+    "react": "^0.12.0",
+    "reactify": "^0.15.0",
+    "uglify-js": "^2.4.13",
+    "vinyl-source-stream": "^1.0.0",
+    "watchify": "^2.0.0"
+  }
+}
