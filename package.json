@@ -2,7 +2,7 @@
   "name": "react-cursor-mixins",
   "version": "1.0.0",
   "description": "React mixins for components using cursors and immutable data structures.",
-  "main": "lib/mixins.js",
+  "main": "lib/should-component-update.js",
 
   "dependencies": {
     "immstruct": "^1.0.0",
