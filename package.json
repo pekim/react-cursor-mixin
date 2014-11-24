@@ -1,9 +1,8 @@
 {
   "name": "react-cursor-mixin",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "React mixin for components using cursors and immutable data structures.",
   "main": "lib/should-component-update.js",
-
   "dependencies": {
     "immstruct": "^1.0.0",
     "deep-equal": "^0.2.1"
@@ -12,12 +11,10 @@
     "chai": "^1.9.2",
     "mocha": "^2.0.1"
   },
-
   "scripts": {
     "test": "mocha -R spec test/**-test.js",
     "test-watch": "mocha -G -w -R min test/**-test.js"
   },
-
   "repository": {
     "type": "git",
     "url": "git://github.com/pekim/react-cursor-mixin.git"
