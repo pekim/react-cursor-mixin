@@ -55,6 +55,13 @@ describe('shouldComponentUpdate', function () {
         {cursor: data.get('foo'), cursor2: data.get('zod')}, null
       );
     });
+
+    it('when cursors are same, with other props are diffent', function () {
+      shouldUpdate(
+        {cursor: data.get('foo'), prop: 42}, null,
+        {cursor: data.get('foo'), prop: 43, prop2: 'qaz'}, null
+      );
+    });
   });
 
   describe('should not update', function () {
@@ -81,10 +88,10 @@ describe('shouldComponentUpdate', function () {
       );
     });
 
-    it('when cursors are same, with other props', function () {
+    it('when cursors are same, other props are same', function () {
       shouldNotUpdate(
         {cursor: data.get('foo'), prop: 42}, null,
-        {cursor: data.get('foo'), prop: 43, prop2: 'qaz'}, null
+        {cursor: data.get('foo'), prop: 42}, null
       );
     });
   });

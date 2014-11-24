@@ -18,9 +18,9 @@ All props whose value is a `Cursor` are checked for change by the mixin.
 As a `Cursor` holds a reference to a path in a nested immutable data structure,
 the check for change is very efficient.
 
-### Use other props for static data
-All props whose value is _not_ a `Cursor` will be ignored by the mixin.
-So they should only be used for data that will never change.
+### Use other props for non-cursor data
+All props whose value are checked for deep equality.
+This is not a performant as checking cursors.
 
 ### Use `state` for local state when needed.
 A component's state is checked for change by the mixin.
